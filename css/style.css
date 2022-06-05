@@ -37,7 +37,9 @@
 html {
   scrollbar-color: var(--text-orange) var(--bg-white);
 }
-
+html,body{
+  overflow-x: hidden;
+}
 
 body {
   font-family: 'Poppins',
