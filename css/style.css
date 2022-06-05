@@ -37,7 +37,8 @@
 html {
   scrollbar-color: var(--text-orange) var(--bg-white);
 }
-html,body{
+body,
+html {
   overflow-x: hidden;
 }
 
