@@ -44,9 +44,19 @@
 
 @media only screen and (max-width: 991px) {
 
+  [type="button"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  button:not(:disabled) {
+    cursor: pointer;
+    border: 0;
+    font-size: 23px;
+  }
+
   /* Navbar */
   .header_wrapper .navbar-brand img {
     width: 180px;
+    height: 50px;
   }
 
   .header_wrapper .navbar-toggler:focus {
@@ -92,6 +102,12 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
   .learn-more-btn {
     font-size: 14px;
     padding: 12px 9px;
@@ -142,14 +158,16 @@
   .free_trail .free_title {
     font-size: 24px;
   }
+
   /* Faq */
-   .faqs_wrapper .accordion-button {
-     font-size: 18px;
-   }
-   /* Footer */
-   .footer_wrappere .footer_logo img {
-     max-width: 50%;
-   }
+  .faqs_wrapper .accordion-button {
+    font-size: 18px;
+  }
+
+  /* Footer */
+  .footer_wrappere .footer_logo img {
+    max-width: 50%;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -171,6 +189,7 @@
     font-size: 13px;
 
   }
+
   /* Faq */
   .faqs_wrapper .accordion-button {
     font-size: 16px;
